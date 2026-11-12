@@ -1,0 +1,15 @@
+[project]
+name = "streaming-fraud-detection"
+version = "2.0.0"
+description = "Real-time fraud intelligence: streaming scoring, graph-based fraud-ring detection, shadow champion/challenger, drift monitoring and a Claude analyst copilot over a Parquet lakehouse."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"

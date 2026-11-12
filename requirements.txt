@@ -1,0 +1,29 @@
+# Core
+pandas>=2.1
+numpy>=1.26
+pyarrow>=14.0
+scikit-learn>=1.4
+joblib>=1.3
+networkx>=3.2              # fraud-ring graph
+pydantic>=2.6
+
+# Storage / query
+duckdb>=1.1
+
+# Serving
+fastapi>=0.110
+uvicorn>=0.29
+httpx>=0.27
+
+# Dashboard
+streamlit>=1.45
+plotly>=5.20
+
+# Analyst copilot (without credentials the offline analyst is used)
+anthropic>=2.0
+
+# Optional: production broker (BROKER_BACKEND=kafka)
+# confluent-kafka>=2.4
+
+# Dev
+pytest>=8.0
