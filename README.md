@@ -154,8 +154,3 @@ Run the tests with `python -m pytest -q`. More docs: [Operations](docs/OPERATION
 - Promotion of the challenger is a manual step. The monitor only recommends it.
 
 ---
-**Series:** [2023 · E-commerce analytics (Power BI)](../project1_ecommerce_analytics) →
-[2024 · SaaS revenue & churn (dbt + Tableau)](../project2_saas_churn_analytics) →
-[2025 · Supply-chain digital twin](../project3_supply_chain_twin) → **2026 · Real-time fraud intelligence**
-
-*All data is synthetic. Card ids are tokens; no real payment data is used.*
